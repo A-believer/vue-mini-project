@@ -1,11 +1,13 @@
 <script>
 import AccordionComp from "./components/AccordionComp.vue"
 import RandomColorComp from "./components/RandomColorComp.vue"
+import StarRatingComp from "./components/StarRatingComp.vue"
 
 export default {
   components: {
     AccordionComp,
-    RandomColorComp
+    RandomColorComp,
+    StarRatingComp
   }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
   <main>
     <AccordionComp />
     <RandomColorComp />
+    <StarRatingComp />
   </main>
 
 </template>
