@@ -1,5 +1,6 @@
 <script>
-import QRCodeComp from './components/QRCodeComp.vue';
+// import QRCodeComp from './components/QRCodeComp.vue';
+// import LightToDark from './components/light-dark-mode/LightToDark.vue';
 // import AccordionComp from "./components/AccordionComp.vue"
 // import RandomColorComp from "./components/RandomColorComp.vue"
 // import StarRatingComp from "./components/StarRatingComp.vue"
@@ -16,7 +17,8 @@ export default {
     // ImageSliderComp,
     // LoadMoreDataComp,
     // TreeViewComp,
-    QRCodeComp
+    // QRCodeComp,
+    // LightToDark,
   }
 }
 </script>
@@ -35,7 +37,11 @@ export default {
     <hr> -->
     <!-- <TreeViewComp /> -->
     <!-- <hr> -->
-    <QRCodeComp />
+    <!-- <QRCodeComp /> -->
+    <!-- <hr> -->
+    <!-- <LightToDark /> -->
+    <!-- <hr> -->
+
   </main>
 
 </template>
