@@ -1,4 +1,6 @@
 <script>
+import ScrollIndicatorComp from './components/ScrollIndicatorComp.vue';
+
 // import QRCodeComp from './components/QRCodeComp.vue';
 // import LightToDark from './components/light-dark-mode/LightToDark.vue';
 // import AccordionComp from "./components/AccordionComp.vue"
@@ -19,6 +21,7 @@ export default {
     // TreeViewComp,
     // QRCodeComp,
     // LightToDark,
+    ScrollIndicatorComp
   }
 }
 </script>
@@ -41,7 +44,7 @@ export default {
     <!-- <hr> -->
     <!-- <LightToDark /> -->
     <!-- <hr> -->
-
+    <ScrollIndicatorComp />
   </main>
 
 </template>
