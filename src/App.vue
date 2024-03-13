@@ -1,22 +1,41 @@
 <script>
-import AccordionComp from "./components/AccordionComp.vue"
-import RandomColorComp from "./components/RandomColorComp.vue"
-import StarRatingComp from "./components/StarRatingComp.vue"
+import QRCodeComp from './components/QRCodeComp.vue';
+// import AccordionComp from "./components/AccordionComp.vue"
+// import RandomColorComp from "./components/RandomColorComp.vue"
+// import StarRatingComp from "./components/StarRatingComp.vue"
+// import ImageSliderComp from './components/ImageSliderComp.vue'
+// import LoadMoreDataComp from './components/LoadMoreDataComp.vue';
+// import TreeViewComp from './components/tree-view/TreeViewComp.vue';
+
 
 export default {
   components: {
-    AccordionComp,
-    RandomColorComp,
-    StarRatingComp
+    // AccordionComp,
+    // RandomColorComp,
+    // StarRatingComp,
+    // ImageSliderComp,
+    // LoadMoreDataComp,
+    // TreeViewComp,
+    QRCodeComp
   }
 }
 </script>
 
 <template>
   <main>
-    <AccordionComp />
+    <!-- <AccordionComp />
+    <hr />
     <RandomColorComp />
+    <hr />
     <StarRatingComp />
+    <hr /> -->
+    <!-- <ImageSliderComp /> -->
+    <!-- <hr>
+    <LoadMoreDataComp />
+    <hr> -->
+    <!-- <TreeViewComp /> -->
+    <!-- <hr> -->
+    <QRCodeComp />
   </main>
 
 </template>
@@ -28,5 +47,12 @@ main {
   align-items: center;
   width: 100%;
   gap: 20px;
+}
+
+hr {
+  background-color: black;
+  color: black;
+  height: 4px;
+  width: '100%';
 }
 </style>

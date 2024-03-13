@@ -18,7 +18,6 @@ export default {
 
     <div :style="{
         width: '100%',
-        height: '300px',
         display: 'flex',
         justifyContent: 'center',
         gap: '4px'
