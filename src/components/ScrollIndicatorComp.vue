@@ -37,7 +37,7 @@ export default {
                 document.documentElement.clientHeight;
 
             this.scrollPercentage = (howMuchScroll / height) * 100
-            console.log(Math.floor(this.scrollPercentage))
+            console.log(Math.floor40(this.scrollPercentage))
 
         }
     },
