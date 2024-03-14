@@ -1,6 +1,10 @@
 <script>
-import ScrollIndicatorComp from './components/ScrollIndicatorComp.vue';
+import FinderFormComp from './components/github-finder/FinderFormComp.vue';
 
+// import ModalTestComp from './components/custom-modal/ModalTestComp.vue';
+
+// import TabCustomComp from './components/TabCustomComp.vue';
+// import ScrollIndicatorComp from './components/ScrollIndicatorComp.vue';
 // import QRCodeComp from './components/QRCodeComp.vue';
 // import LightToDark from './components/light-dark-mode/LightToDark.vue';
 // import AccordionComp from "./components/AccordionComp.vue"
@@ -21,7 +25,11 @@ export default {
     // TreeViewComp,
     // QRCodeComp,
     // LightToDark,
-    ScrollIndicatorComp
+    // ScrollIndicatorComp,
+    // TabCustomComp,
+    // ModalTestComp,
+    FinderFormComp,
+
   }
 }
 </script>
@@ -29,22 +37,27 @@ export default {
 <template>
   <main>
     <!-- <AccordionComp />
-    <hr />
+    
     <RandomColorComp />
-    <hr />
+    
     <StarRatingComp />
-    <hr /> -->
-    <!-- <ImageSliderComp /> -->
-    <!-- <hr>
+    <hr /> 
+     <ImageSliderComp /> 
+   
     <LoadMoreDataComp />
-    <hr> -->
-    <!-- <TreeViewComp /> -->
-    <!-- <hr> -->
-    <!-- <QRCodeComp /> -->
-    <!-- <hr> -->
-    <!-- <LightToDark /> -->
-    <!-- <hr> -->
-    <ScrollIndicatorComp />
+
+     <TreeViewComp /> 
+  
+     <QRCodeComp /> 
+    
+     <LightToDark /> 
+    
+     <ScrollIndicatorComp /> 
+
+    <TabCustomComp />
+    <ModalTestComp />-->
+
+    <FinderFormComp />
   </main>
 
 </template>
