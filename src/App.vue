@@ -1,5 +1,9 @@
 <script>
-import FinderFormComp from './components/github-finder/FinderFormComp.vue';
+import MainGameComp from './components/tic-tac-toe/MainGameComp.vue';
+
+// import AutocompleteComp from './components/AutocompleteComp.vue';
+
+// import FinderFormComp from './components/github-finder/FinderFormComp.vue';
 
 // import ModalTestComp from './components/custom-modal/ModalTestComp.vue';
 
@@ -28,7 +32,9 @@ export default {
     // ScrollIndicatorComp,
     // TabCustomComp,
     // ModalTestComp,
-    FinderFormComp,
+    // FinderFormComp,
+    // AutocompleteComp,
+    MainGameComp
 
   }
 }
@@ -55,9 +61,12 @@ export default {
      <ScrollIndicatorComp /> 
 
     <TabCustomComp />
-    <ModalTestComp />-->
+    <ModalTestComp />
 
-    <FinderFormComp />
+    <FinderFormComp /> 
+    <AutocompleteComp />-->
+
+    <MainGameComp />
   </main>
 
 </template>
