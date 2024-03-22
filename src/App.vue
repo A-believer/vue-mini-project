@@ -1,5 +1,7 @@
-<script>
-import MainGameComp from './components/tic-tac-toe/MainGameComp.vue';
+<script setup>
+import ResizeTestComp from './components/window-resize/ResizeTestComp.vue';
+
+// import MainGameComp from './components/tic-tac-toe/MainGameComp.vue';
 
 // import AutocompleteComp from './components/AutocompleteComp.vue';
 
@@ -19,54 +21,27 @@ import MainGameComp from './components/tic-tac-toe/MainGameComp.vue';
 // import TreeViewComp from './components/tree-view/TreeViewComp.vue';
 
 
-export default {
-  components: {
-    // AccordionComp,
-    // RandomColorComp,
-    // StarRatingComp,
-    // ImageSliderComp,
-    // LoadMoreDataComp,
-    // TreeViewComp,
-    // QRCodeComp,
-    // LightToDark,
-    // ScrollIndicatorComp,
-    // TabCustomComp,
-    // ModalTestComp,
-    // FinderFormComp,
-    // AutocompleteComp,
-    MainGameComp
 
-  }
-}
 </script>
 
 <template>
   <main>
     <!-- <AccordionComp />
-    
     <RandomColorComp />
-    
-    <StarRatingComp />
-    <hr /> 
-     <ImageSliderComp /> 
-   
+    <StarRatingComp /> 
+    <ImageSliderComp /> 
     <LoadMoreDataComp />
-
-     <TreeViewComp /> 
-  
+    <TreeViewComp /> 
      <QRCodeComp /> 
-    
-     <LightToDark /> 
-    
-     <ScrollIndicatorComp /> 
-
+    <LightToDark /> 
+    <ScrollIndicatorComp /> 
     <TabCustomComp />
     <ModalTestComp />
-
     <FinderFormComp /> 
-    <AutocompleteComp />-->
+    <AutocompleteComp />
+    <MainGameComp /> -->
+    <ResizeTestComp />
 
-    <MainGameComp />
   </main>
 
 </template>
